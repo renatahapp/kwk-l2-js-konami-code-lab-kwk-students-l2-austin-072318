@@ -12,5 +12,22 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+var x = event.init || event.codes;
+const input("body").
 }
+
+const alphabet = ["a", "b", "c"]; 
+let index = 0 
+function onKeyDownHandler(e){ 
+  const key = e.key; 
+  if (key === alphabet [index]) { 
+    index++; 
+    if (index === alphabet.length) { 
+      alert; "hurray"; 
+      index = 0;
+    } 
+    else { 
+      index = 0; }
+  }}
+  
+  
