@@ -29,5 +29,5 @@ function onKeyDownHandler(e){
     else { 
       index = 0; }
   }}
-  
+  let body =document.querySelection
   
